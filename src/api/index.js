@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || ''
+    baseURL: import.meta.env.VITE_API_URL || 'https://advance-backend-coral.vercel.app/'
 })
 
 export function setAuthToken(token) {
