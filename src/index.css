@@ -1,0 +1,18 @@
+:root {
+    --bs-body-bg: #f8f9fa
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background: var(--bs-body-bg)
+}
+
+/* small app styles */
+.card {
+    border-radius: 10px
+}
